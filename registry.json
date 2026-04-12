@@ -10,7 +10,7 @@
     "homepage": "https://github.com/bitsorg/lcg.bits"
   },
   {
-    "id": "commom.bits",
+    "id": "common.bits",
     "name": "Common HEP Software",
     "owner": "CERN/EP-SFT",
     "repo": "common.bits",
