@@ -10,6 +10,16 @@
     "homepage": "https://github.com/bitsorg/lcg.bits"
   },
   {
+    "id": "alice.bits",
+    "name": "ALICE Software",
+    "owner": "ALICE",
+    "repo": "alice.bits",
+    "branch": "main",
+    "description": "ALICE experiment software stack recipes",
+    "tags": ["hep", "alice"],
+    "homepage": "https://github.com/bitsorg/alice.bits"
+  },
+  {
     "id": "lhcb.bits",
     "name": "LHCb Software",
     "owner": "LHCb",
@@ -18,26 +28,6 @@
     "description": "LHCb experiment offline software recipes",
     "tags": ["hep", "lhcb"],
     "homepage": "https://github.com/bitsorg/lhcb.bits"
-  },
-  {
-    "id": "atlas.bits",
-    "name": "ATLAS Software",
-    "owner": "ATLAS",
-    "repo": "atlas.bits",
-    "branch": "main",
-    "description": "ATLAS experiment software stack recipes",
-    "tags": ["hep", "atlas"],
-    "homepage": "https://github.com/bitsorg/atlas.bits"
-  },
-  {
-    "id": "cms.bits",
-    "name": "CMS Software",
-    "owner": "CMS",
-    "repo": "cms.bits",
-    "branch": "main",
-    "description": "CMS experiment software stack recipes",
-    "tags": ["hep", "cms"],
-    "homepage": "https://github.com/bitsorg/cms.bits"
   },
   {
     "id": "key4kep.bits",
