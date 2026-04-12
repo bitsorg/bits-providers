@@ -10,6 +10,16 @@
     "homepage": "https://github.com/bitsorg/lcg.bits"
   },
   {
+    "id": "commom.bits",
+    "name": "Common HEP Software",
+    "owner": "CERN/EP-SFT",
+    "repo": "common.bits",
+    "branch": "main",
+    "description": "Commonly used software recipes",
+    "tags": ["hep"],
+    "homepage": "https://github.com/bitsorg/common.bits"
+  },
+  {
     "id": "alice.bits",
     "name": "ALICE Software",
     "owner": "ALICE",
