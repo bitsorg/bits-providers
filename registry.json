@@ -20,6 +20,16 @@
     "homepage": "https://github.com/bitsorg/common.bits"
   },
   {
+    "id": "alidist",
+    "name": "ALICE Software (original aliBuild)",
+    "owner": "ALICE",
+    "repo": "alidist",
+    "branch": "main",
+    "description": "ALICE experiment software stack recipes",
+    "tags": ["hep", "alice"],
+    "homepage": "https://github.com/alisw/alidist"
+  },
+    {
     "id": "alice.bits",
     "name": "ALICE Software",
     "owner": "ALICE",
@@ -29,6 +39,7 @@
     "tags": ["hep", "alice"],
     "homepage": "https://github.com/bitsorg/alice.bits"
   },
+
   {
     "id": "lhcb.bits",
     "name": "LHCb Software",
