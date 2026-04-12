@@ -1,0 +1,52 @@
+[
+  {
+    "id": "lcg.bits",
+    "name": "LCG Software Stack",
+    "owner": "CERN/EP-SFT",
+    "repo": "lcg.bits",
+    "branch": "main",
+    "description": "CERN LCG/EP-SFT software stack recipes — several hundred HEP externals and generators",
+    "tags": ["hep", "cern", "lcg", "ep-sft"],
+    "homepage": "https://github.com/bitsorg/lcg.bits"
+  },
+  {
+    "id": "lhcb.bits",
+    "name": "LHCb Software",
+    "owner": "LHCb",
+    "repo": "lhcb.bits",
+    "branch": "main",
+    "description": "LHCb experiment offline software recipes",
+    "tags": ["hep", "lhcb"],
+    "homepage": "https://github.com/bitsorg/lhcb.bits"
+  },
+  {
+    "id": "atlas.bits",
+    "name": "ATLAS Software",
+    "owner": "ATLAS",
+    "repo": "atlas.bits",
+    "branch": "main",
+    "description": "ATLAS experiment software stack recipes",
+    "tags": ["hep", "atlas"],
+    "homepage": "https://github.com/bitsorg/atlas.bits"
+  },
+  {
+    "id": "cms.bits",
+    "name": "CMS Software",
+    "owner": "CMS",
+    "repo": "cms.bits",
+    "branch": "main",
+    "description": "CMS experiment software stack recipes",
+    "tags": ["hep", "cms"],
+    "homepage": "https://github.com/bitsorg/cms.bits"
+  },
+  {
+    "id": "key4kep.bits",
+    "name": "Key4Hep Software",
+    "owner": "FCC",
+    "repo": "key4hep.bits",
+    "branch": "main",
+    "description": "FCC software stack recipes",
+    "tags": ["hep", "fcc","key4hep"],
+    "homepage": "https://github.com/bitsorg/key4hep.bits"
+  }
+]
