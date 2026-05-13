@@ -63,11 +63,11 @@
   {
     "id": "testbed.bits",
     "name": "BITS Testbed",
-    "owner": "FCC",
+    "owner": "CERN/EP-SFT",
     "repo": "testbed.bits",
     "branch": "main",
     "description": "BITS Testbed recipes",
-    "tags": ["bits", "testbed"],
+    "tags": ["bits", "testbed","ep-sft"],
     "homepage": "https://github.com/bitsorg/testbed.bits"
   }
 ]
