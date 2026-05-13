@@ -59,5 +59,15 @@
     "description": "FCC software stack recipes",
     "tags": ["hep", "fcc","key4hep"],
     "homepage": "https://github.com/bitsorg/key4hep.bits"
+  },
+  {
+    "id": "testbed.bits",
+    "name": "BITS Testbed",
+    "owner": "FCC",
+    "repo": "testbed.bits",
+    "branch": "main",
+    "description": "BITS Testbed recipes",
+    "tags": ["bits", "testbed"],
+    "homepage": "https://github.com/bitsorg/testbed.bits"
   }
 ]
