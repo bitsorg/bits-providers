@@ -20,7 +20,7 @@
     "homepage": "https://github.com/bitsorg/common.bits"
   },
   {
-    "id": "alidist",
+    "id": "default.bits",
     "name": "ALICE Software (original aliBuild)",
     "owner": "ALICE",
     "repo": "alidist",
