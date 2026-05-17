@@ -3,7 +3,5 @@ version: "1"
 tag: "main"
 provides_repository: true
 source: https://github.com/bitsorg/lcg.bits
-requires:
-  - common.bits
 ---
 
