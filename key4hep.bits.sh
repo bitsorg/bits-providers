@@ -3,5 +3,7 @@ version: "1"
 tag: "main"
 provides_repository: true
 source: https://github.com/bitsorg/key4hep.bits
+requires:
+  - lcg.bits
 ---
 
