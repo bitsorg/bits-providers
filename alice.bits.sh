@@ -4,6 +4,6 @@ tag: "main"
 provides_repository: true
 source: https://github.com/bitsorg/alice.bits
 requires:
-  - alibuild.bits
+  - alidist.bits
 ---
 
