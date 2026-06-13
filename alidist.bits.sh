@@ -1,4 +1,4 @@
-package: default.bits
+package: alidist.bits
 version: "1"
 tag: "master"
 provides_repository: true
