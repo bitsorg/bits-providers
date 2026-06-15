@@ -1,0 +1,14 @@
+Copyright (C) 2026 CERN
+and the bits project contributors.
+
+SPDX-License-Identifier: GPL-3.0-or-later
+
+bits-providers is free software: you can redistribute it and/or modify it
+under the terms of the GNU General Public License as published by the Free
+Software Foundation, either version 3 of the License, or (at your option)
+any later version. See the LICENSE file for the full text.
+
+This repository holds provider/registry data (the *.bits.sh provider
+definitions and registry.json) that bits sources during bootstrap. Per-file
+SPDX headers are omitted to keep these data files clean and stable; the
+repository-level LICENSE and this COPYRIGHT file govern every file.
