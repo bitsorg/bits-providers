@@ -1,11 +1,61 @@
 [
   {
+    "id": "stacks.bits",
+    "name": "SPI/EP-SFT Repository",
+    "owner": "CERN/EP-SFT",
+    "repo": "stacks.bits",
+    "branch": "main",
+    "description": "CERN SPI/EP-SFT project repository",
+    "tags": ["hep", "cern", "lcg", "ep-sft"],
+    "homepage": "https://github.com/bitsorg/stacks.bits"
+  },
+    {
+    "id": "alice.bits",
+    "name": "ALICE Software",
+    "owner": "ALICE",
+    "repo": "alice.bits",
+    "branch": "main",
+    "description": "ALICE software repository",
+    "tags": ["hep", "alice"],
+    "homepage": "https://github.com/bitsorg/alice.bits"
+  },
+  {
+    "id": "lhcb.bits",
+    "name": "LHCb Software",
+    "owner": "LHCb",
+    "repo": "lhcb.bits",
+    "branch": "main",
+    "description": "LHCb software repository",
+    "tags": ["hep", "lhcb"],
+    "homepage": "https://github.com/bitsorg/lhcb.bits"
+  },
+  {
+    "id": "cms.bits",
+    "name": "CMS Software",
+    "owner": "CMS",
+    "repo": "cms.bits",
+    "branch": "main",
+    "description": "CMS software repository",
+    "tags": ["hep", "cms"],
+    "homepage": "https://github.com/bitsorg/cms.bits"
+  },
+  {
+    "id": "key4kep.bits",
+    "name": "Key4Hep Software",
+    "owner": "FCC",
+    "repo": "key4hep.bits",
+    "branch": "main",
+    "description": "FCC software stack recipes",
+    "tags": ["hep", "fcc","key4hep"],
+    "homepage": "https://github.com/bitsorg/key4hep.bits"
+  },
+  {
     "id": "lcg.bits",
     "name": "LCG Software Stack",
     "owner": "CERN/EP-SFT",
     "repo": "lcg.bits",
     "branch": "main",
-    "description": "CERN LCG/EP-SFT software stack recipes — several hundred HEP externals and generators",
+    "description": "CERN LCG/EP-SFT curated recipes — several hundred HEP externals and generators",
     "tags": ["hep", "cern", "lcg", "ep-sft"],
     "homepage": "https://github.com/bitsorg/lcg.bits"
   },
@@ -15,7 +65,7 @@
     "owner": "CERN/EP-SFT",
     "repo": "common.bits",
     "branch": "main",
-    "description": "Commonly used software recipes",
+    "description": "Commonly used software HEP package",
     "tags": ["hep"],
     "homepage": "https://github.com/bitsorg/common.bits"
   },
@@ -28,37 +78,6 @@
     "description": "ALICE experiment software stack recipes",
     "tags": ["hep", "alice"],
     "homepage": "https://github.com/alisw/alidist"
-  },
-    {
-    "id": "alice.bits",
-    "name": "ALICE Software",
-    "owner": "ALICE",
-    "repo": "alice.bits",
-    "branch": "main",
-    "description": "ALICE experiment software stack recipes",
-    "tags": ["hep", "alice"],
-    "homepage": "https://github.com/bitsorg/alice.bits"
-  },
-
-  {
-    "id": "lhcb.bits",
-    "name": "LHCb Software",
-    "owner": "LHCb",
-    "repo": "lhcb.bits",
-    "branch": "main",
-    "description": "LHCb experiment offline software recipes",
-    "tags": ["hep", "lhcb"],
-    "homepage": "https://github.com/bitsorg/lhcb.bits"
-  },
-  {
-    "id": "key4kep.bits",
-    "name": "Key4Hep Software",
-    "owner": "FCC",
-    "repo": "key4hep.bits",
-    "branch": "main",
-    "description": "FCC software stack recipes",
-    "tags": ["hep", "fcc","key4hep"],
-    "homepage": "https://github.com/bitsorg/key4hep.bits"
   },
   {
     "id": "testbed.bits",
