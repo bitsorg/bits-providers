@@ -4,6 +4,6 @@ tag: "main"
 provides_repository: true
 source: https://github.com/bitsorg/testbed.bits
 requires:
-  - common.bits
+  - stacks.bits
 ---
 
