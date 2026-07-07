@@ -80,6 +80,16 @@
     "homepage": "https://github.com/alisw/alidist"
   },
   {
+    "id": "ship.bits",
+    "name": "SHiP Repository",
+    "owner": "SHiP",
+    "repo": "ship.bits",
+    "branch": "main",
+    "description": "SHiP Experiment software repository",
+    "tags": ["hep", "cern", "lcg", "ship"],
+    "homepage": "https://github.com/bitsorg/ship.bits"
+  },
+  {
     "id": "testbed.bits",
     "name": "BITS Testbed",
     "owner": "CERN/EP-SFT",
