@@ -52,6 +52,7 @@ requires:                      # other providers to pull in first
 | `package` | Provider identifier; matches the `*.bits.sh` file name and the `requires:` target used elsewhere. |
 | `version` | Provider-recipe version. Bump it when the provider mapping itself changes. |
 | `tag` | Which branch/tag/commit of `source` to clone. Community stacks usually override this per release (e.g. `stacks.bits` pins `lcg.bits` to the release label). |
+| `commit` | *(optional)* Integrity pin: the full or ≥7-char commit SHA `tag` must resolve to. When set, `bits` verifies the resolved commit and **refuses to build** (fail-closed) if it differs — so a force-push or account compromise that moves a mutable branch cannot silently change what is built. Moving the pin is a deliberate, reviewed recipe change. Omit it to track `tag` as-is. |
 | `provides_repository` | Must be `true` — this is what makes `bits` treat the recipe as a repo provider rather than a buildable package. |
 | `always_load` | When `true`, the repo's recipes are always made available once the provider is reached. Used for **shared recipe pools** (`lcg.bits`, `common.bits`, `alidist`) that many communities draw from. Omitted on community front-ends, which are loaded on demand. |
 | `source` | Git URL of the recipe repository to clone. |
