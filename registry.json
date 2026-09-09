@@ -60,6 +60,16 @@
     "homepage": "https://github.com/bitsorg/lcg.bits"
   },
   {
+    "id": "atlas.bits",
+    "name": "ATLAS Software",
+    "owner": "ATLAS",
+    "repo": "atlas.bits",
+    "branch": "main",
+    "description": "ATLAS offline software and externals",
+    "tags": ["hep", "cern", "atlas", "lcg"],
+    "homepage": "https://github.com/bitsorg/atlas.bits"
+  },
+  {
     "id": "common.bits",
     "name": "Common HEP Software",
     "owner": "CERN/EP-SFT",
