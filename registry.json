@@ -84,7 +84,7 @@
     "name": "ALICE Software (original aliBuild)",
     "owner": "ALICE",
     "repo": "alidist",
-    "branch": "main",
+    "branch": "master",
     "description": "ALICE experiment software stack recipes",
     "tags": ["hep", "alice"],
     "homepage": "https://github.com/alisw/alidist"
