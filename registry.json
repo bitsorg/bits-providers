@@ -5,6 +5,7 @@
     "owner": "CERN/EP-SFT",
     "repo": "stacks.bits",
     "branch": "main",
+    "priority": 50,
     "description": "CERN SPI/EP-SFT project repository",
     "tags": ["hep", "cern", "lcg", "ep-sft"],
     "homepage": "https://github.com/bitsorg/stacks.bits"
@@ -15,6 +16,7 @@
     "owner": "ALICE",
     "repo": "alice.bits",
     "branch": "main",
+    "priority": 10,
     "description": "ALICE software repository",
     "tags": ["hep", "alice"],
     "homepage": "https://github.com/bitsorg/alice.bits"
@@ -25,6 +27,7 @@
     "owner": "LHCb",
     "repo": "lhcb.bits",
     "branch": "main",
+    "priority": 10,
     "description": "LHCb software repository",
     "tags": ["hep", "lhcb"],
     "homepage": "https://github.com/bitsorg/lhcb.bits"
@@ -35,6 +38,7 @@
     "owner": "CMS",
     "repo": "cms.bits",
     "branch": "main",
+    "priority": 10,
     "description": "CMS software repository",
     "tags": ["hep", "cms"],
     "homepage": "https://github.com/bitsorg/cms.bits"
@@ -45,6 +49,7 @@
     "owner": "FCC",
     "repo": "key4hep.bits",
     "branch": "main",
+    "priority": 10,
     "description": "FCC software stack recipes",
     "tags": ["hep", "fcc","key4hep"],
     "homepage": "https://github.com/bitsorg/key4hep.bits"
@@ -55,6 +60,7 @@
     "owner": "CERN/EP-SFT",
     "repo": "lcg.bits",
     "branch": "main",
+    "priority": 90,
     "description": "CERN LCG/EP-SFT curated recipes — several hundred HEP externals and generators",
     "tags": ["hep", "cern", "lcg", "ep-sft"],
     "homepage": "https://github.com/bitsorg/lcg.bits"
@@ -65,6 +71,7 @@
     "owner": "ATLAS",
     "repo": "atlas.bits",
     "branch": "main",
+    "priority": 10,
     "description": "ATLAS offline software and externals",
     "tags": ["hep", "cern", "atlas", "lcg"],
     "homepage": "https://github.com/bitsorg/atlas.bits"
@@ -75,6 +82,7 @@
     "owner": "CERN/EP-SFT",
     "repo": "common.bits",
     "branch": "main",
+    "priority": 90,
     "description": "Commonly used software HEP package",
     "tags": ["hep"],
     "homepage": "https://github.com/bitsorg/common.bits"
@@ -85,6 +93,7 @@
     "owner": "ALICE",
     "repo": "alidist",
     "branch": "master",
+    "priority": 10,
     "description": "ALICE experiment software stack recipes",
     "tags": ["hep", "alice"],
     "homepage": "https://github.com/alisw/alidist"
@@ -95,6 +104,7 @@
     "owner": "SHiP",
     "repo": "ship.bits",
     "branch": "main",
+    "priority": 10,
     "description": "SHiP Experiment software repository",
     "tags": ["hep", "cern", "lcg", "ship"],
     "homepage": "https://github.com/bitsorg/ship.bits"
@@ -105,6 +115,7 @@
     "owner": "CERN/EP-SFT",
     "repo": "testbed.bits",
     "branch": "main",
+    "priority": 10,
     "description": "BITS Testbed recipes",
     "tags": ["bits", "testbed","ep-sft"],
     "homepage": "https://github.com/bitsorg/testbed.bits"
