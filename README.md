@@ -71,14 +71,15 @@ the whole chain:
 | `common.bits` | shared pool (`always_load`) | — | `bitsorg/common.bits` |
 | `alidist.bits` | shared pool (`always_load`) | — | `alisw/alidist` |
 | `stacks.bits` | community (LCG/EP-SFT) | `lcg.bits` | `bitsorg/stacks.bits` |
-| `key4hep.bits` | community (FCC) | `lcg.bits` | `bitsorg/key4hep.bits` |
-| `lhcb.bits` | community | `lcg.bits` | `bitsorg/lhcb.bits` |
-| `ship.bits` | community | `lcg.bits` | `bitsorg/ship.bits` |
+| `atlas.bits` | community | `stacks.bits` | `bitsorg/atlas.bits` |
+| `key4hep.bits` | community (FCC) | `stacks.bits` | `bitsorg/key4hep.bits` |
+| `lhcb.bits` | community | `stacks.bits` | `bitsorg/lhcb.bits` |
+| `ship.bits` | community | `stacks.bits` | `bitsorg/ship.bits` |
 | `cms.bits` | community (`always_load`) | — | `bitsorg/cms.bits` |
 | `alice.bits` | community | `alidist.bits` | `bitsorg/alice.bits` |
 | `testbed.bits` | test community | `stacks.bits` | `bitsorg/testbed.bits` |
 
-So, for example, `testbed.bits → stacks.bits → lcg.bits`, and `alice.bits → alidist.bits`.
+So, for example, `lhcb.bits → stacks.bits → lcg.bits` (likewise atlas, key4hep, ship and testbed), and `alice.bits → alidist.bits`.
 The recipes themselves live in the target repositories; this repo only records where they
 are and how they compose. For the policy/layout each community applies on top of its pool,
 see that community's own repository (e.g. [`stacks.bits`](https://github.com/bitsorg/stacks.bits)).
