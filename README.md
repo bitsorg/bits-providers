@@ -17,7 +17,7 @@ from **repository-provider recipes** — ordinary recipes carrying `provides_rep
 whose `source` points at a recipe repo. `bits-providers` is the default set of those
 recipes (`$BITS_PROVIDERS`).
 
-When `bits` selects a community — from `$BITS_ORGANISATION` (e.g. `ALICE` →
+When `bits` selects a community — from `$BITS_COMMUNITY` (e.g. `ALICE` →
 `alice.bits`) or because another recipe `requires:` it — it:
 
 1. reads the matching `<name>.bits.sh` provider recipe here;
@@ -128,7 +128,8 @@ carries presentation metadata rather than build wiring:
 2. Add a matching entry to `registry.json` so the community appears in listings.
 3. Bump the provider `version` when you change an existing mapping.
 
-Users then select it with `BITS_ORGANISATION=<NAME> bits build <pkg>`, or by having their
+Users then select it with `BITS_COMMUNITY=<NAME> bits build <pkg>` or `bits --community <NAME>
+build <pkg>` (`BITS_ORGANISATION`, its former name, still works), or by having their
 stack `requires:` it.
 
 ---
