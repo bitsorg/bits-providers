@@ -12,10 +12,11 @@ this registry to pull in exactly the repositories that community needs.
 
 ## How bits uses this repository
 
-`bits` seeds its recipe search path (`$BITS_PATH`) from local `*.bits` checkouts and
-from **repository-provider recipes** — ordinary recipes carrying `provides_repository: true`
-whose `source` points at a recipe repo. `bits-providers` is the default set of those
-recipes (`$BITS_PROVIDERS`).
+How bits knows which experiment's recipes to use: you name a community, and bits fetches
+its recipe repositories through this registry. `bits` seeds its recipe search path
+(`$BITS_PATH`) from local `*.bits` checkouts and from **repository-provider recipes** —
+ordinary recipes carrying `provides_repository: true` whose `source` points at a recipe
+repo. `bits-providers` is the default set of those recipes (`$BITS_PROVIDERS`).
 
 When `bits` selects a community — from `$BITS_COMMUNITY` (e.g. `ALICE` →
 `alice.bits`) or because another recipe `requires:` it — it:
@@ -54,7 +55,7 @@ requires:                      # other providers to pull in first
 | `tag` | Which branch/tag/commit of `source` to clone. Community stacks usually override this per release (e.g. `stacks.bits` pins `lcg.bits` to the release label). |
 | `commit` | *(optional)* Integrity pin: the full or ≥7-char commit SHA `tag` must resolve to. When set, `bits` verifies the resolved commit and **refuses to build** (fail-closed) if it differs — so a force-push or account compromise that moves a mutable branch cannot silently change what is built. Moving the pin is a deliberate, reviewed recipe change. Omit it to track `tag` as-is. |
 | `provides_repository` | Must be `true` — this is what makes `bits` treat the recipe as a repo provider rather than a buildable package. |
-| `always_load` | When `true`, the repo's recipes are always made available once the provider is reached. Used for **shared recipe pools** (`lcg.bits`, `common.bits`, `alidist`) that many communities draw from. Omitted on community front-ends, which are loaded on demand. |
+| `always_load` | When `true`, the repo's recipes are always made available once the provider is reached. Used for **shared recipe pools** (`lcg.bits`, `common.bits`, `alidist.bits`) that many communities draw from. Omitted on community front-ends, which are loaded on demand, except `cms.bits`. |
 | `source` | Git URL of the recipe repository to clone. |
 | `requires` | Other providers this one depends on; `bits` resolves them transitively. |
 
