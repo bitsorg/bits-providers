@@ -12,11 +12,14 @@ this registry to pull in exactly the repositories that community needs.
 
 ## How bits uses this repository
 
-How bits knows which experiment's recipes to use: you name a community, and bits fetches
-its recipe repositories through this registry. `bits` seeds its recipe search path
-(`$BITS_PATH`) from local `*.bits` checkouts and from **repository-provider recipes** —
-ordinary recipes carrying `provides_repository: true` whose `source` points at a recipe
-repo. `bits-providers` is the default set of those recipes (`$BITS_PROVIDERS`).
+To tell bits which experiment's recipes to use, name the community: set
+`BITS_COMMUNITY=ALICE` (any name the registry lists), or give it first on the command
+line, `bits --community ALICE build …`. bits then fetches its recipe repositories
+through this registry, and those they `requires:`, such as the shared recipe pools.
+`bits` seeds its recipe search path (`$BITS_PATH`) from local `*.bits` checkouts and
+from **repository-provider recipes** — ordinary recipes carrying `provides_repository:
+true` whose `source` points at a recipe repo. `bits-providers` is the default set of
+those recipes (`$BITS_PROVIDERS`).
 
 When `bits` selects a community — from `$BITS_COMMUNITY` (e.g. `ALICE` →
 `alice.bits`) or because another recipe `requires:` it — it:
