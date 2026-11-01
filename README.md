@@ -82,6 +82,7 @@ the whole chain:
 | `cms.bits` | community (`always_load`) | — | `bitsorg/cms.bits` |
 | `alice.bits` | community | `alidist.bits` | `bitsorg/alice.bits` |
 | `testbed.bits` | test community | `stacks.bits` | `bitsorg/testbed.bits` |
+| `bits.bits` | bits itself | — | `bitsorg/bits.bits` |
 
 So, for example, `lhcb.bits → stacks.bits → lcg.bits` (likewise atlas, key4hep, ship and testbed), and `alice.bits → alidist.bits`.
 The recipes themselves live in the target repositories; this repo only records where they

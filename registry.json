@@ -119,5 +119,16 @@
     "description": "BITS Testbed recipes",
     "tags": ["bits", "testbed","ep-sft"],
     "homepage": "https://github.com/bitsorg/testbed.bits"
+  },
+  {
+    "id": "bits.bits",
+    "name": "bits",
+    "owner": "CERN/EP-SFT",
+    "repo": "bits.bits",
+    "branch": "main",
+    "priority": 10,
+    "description": "bits itself, with its own Python and Environment Modules, as published on /cvmfs/bits.cern.ch",
+    "tags": ["bits", "ep-sft"],
+    "homepage": "https://github.com/bitsorg/bits.bits"
   }
 ]
