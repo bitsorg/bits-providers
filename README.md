@@ -3,7 +3,7 @@
 The default **registry of repository-provider recipes** for [`bits`](https://github.com/bitsorg/bits).
 
 `bits` builds packages from recipes it finds along a search path. This repository is
-how that search path gets populated *automatically*: each `*.bits.sh` file here is a
+how that search path gets populated *automatically*: each `packages/*.bits.sh` file is a
 tiny recipe that tells `bits` where to clone a recipe repository from, and how those
 repositories depend on one another. Point `bits` at a community (by name) and it walks
 this registry to pull in exactly the repositories that community needs.
@@ -24,7 +24,7 @@ those recipes (`$BITS_PROVIDERS`).
 When `bits` selects a community — from `$BITS_COMMUNITY` (e.g. `ALICE` →
 `alice.bits`) or because another recipe `requires:` it — it:
 
-1. reads the matching `<name>.bits.sh` provider recipe here;
+1. reads the matching `packages/<name>.bits.sh` provider recipe;
 2. clones its `source` at `tag:` into `sw/REPOS/<pkg>/<hash>/`;
 3. adds that checkout to `$BITS_PATH` and **rescans**, following any `requires:` to more
    providers, until the repository graph is stable;
@@ -127,7 +127,7 @@ carries presentation metadata rather than build wiring:
 
 ## Adding a provider
 
-1. Add `<name>.bits.sh` with `provides_repository: true`, the `source` URL, the `tag` to
+1. Add `packages/<name>.bits.sh` with `provides_repository: true`, the `source` URL, the `tag` to
    track, and any `requires:` on shared pools (`lcg.bits`, `common.bits`, `alidist.bits`).
    Add `always_load: true` only for a repository whose recipes should always be available.
 2. Add a matching entry to `registry.json` so the community appears in listings.
